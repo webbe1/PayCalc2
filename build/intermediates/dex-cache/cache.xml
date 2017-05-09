@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\StudioProjects\PayCalc2\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="223b0a2d2f77c114831a399d8cea6be51c328fe0">
+        <dex dex="C:\Users\Eric\StudioProjects\PayCalc2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_bdde921e49ad9ba1aec2505869bb95f985e13524\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="C:\Users\Eric\StudioProjects\PayCalc2\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="510aa6efc159983dfbffa676a0dae37568c0a46f">
+        <dex dex="C:\Users\Eric\StudioProjects\PayCalc2\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e8257e89a4dd0e32e866a38d7d4ca4cebc918e18\classes.dex" />
+    </item>
+
+</items>

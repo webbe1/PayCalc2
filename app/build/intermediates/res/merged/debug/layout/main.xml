@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:orientation="vertical"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent">
+    <TableLayout android:layout_width="match_parent" android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_weight="0.40" >
+        <TableRow android:id="@+id/tableRow1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/hrs" android:gravity="right"/>
+        	<EditText android:id="@+id/hrs" android:width="200dp" android:inputType="numberDecimal" android:focusable="false" />
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/rate" android:gravity="right"/>
+        	<EditText android:id="@+id/rate"  android:width="200dp" android:inputType="numberDecimal" android:focusable="false" />
+        </TableRow>
+        <TableRow android:id="@+id/tableRow3" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/total" android:gravity="right"/>
+        	<EditText android:id="@+id/tot"  android:width="200dp" android:editable="false" android:gravity="right"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow4" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/fed" android:gravity="right"/>
+        	<EditText android:id="@+id/fed" android:width="200dp" android:editable="false" android:gravity="right"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/state" android:gravity="right"/>
+        	<EditText android:id="@+id/state" android:width="200dp" android:editable="false" android:gravity="right"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:layout_width="wrap_content" android:layout_height="wrap_content" android:gravity="center">
+        	<TextView android:text="@string/net" android:gravity="right"/>
+        	<EditText android:id="@+id/net" android:width="200dp" android:editable="false" android:gravity="right"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow5" android:gravity="center_horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content">
+        	<LinearLayout 
+       android:orientation="horizontal"
+       android:gravity="center_horizontal"
+       android:layout_width="fill_parent"
+       android:layout_height="wrap_content" >
+         <Button android:text="@string/calc" android:id="@+id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:onClick="calculate"></Button>
+         <Button android:layout_height="wrap_content" android:id="@+id/button2" android:layout_width="wrap_content" android:text="@string/clr" android:onClick="clear"></Button>
+         <Button android:layout_height="wrap_content" android:id="@+id/button3" android:layout_width="wrap_content" android:text="@string/log2" android:onClick="doLogin"></Button>
+     </LinearLayout>
+        </TableRow>
+     </TableLayout>
+</LinearLayout>

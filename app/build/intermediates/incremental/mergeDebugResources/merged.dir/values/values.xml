@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="passwords">
+    <item>password1</item>
+    <item>password2</item>
+    <item>password3</item>
+    <item>password4</item>
+    <item>password5</item>
+    <item>password6</item>
+    <item>password7</item>
+    <item>password8</item>
+    <item>password9</item>
+    <item>password10</item></string-array>
+    <string-array name="usernames">
+    <item>username1</item>
+    <item>username2</item>
+    <item>username3</item>
+    <item>username4</item>
+    <item>username5</item>
+    <item>username6</item>
+    <item>username7</item>
+    <item>username8</item>
+    <item>username9</item>
+    <item>username10</item></string-array>
+    <string name="app_name">Project1Calc</string>
+    <string name="calc">Calculate</string>
+    <string name="clr">Clear</string>
+    <string name="fed">Fed W/H:</string>
+    <string name="hello">Hello World, Project1CalcActivity!</string>
+    <string name="hrs">Hours:</string>
+    <string name="log">Login</string>
+    <string name="log2">Login</string>
+    <string name="net">Net Pay:</string>
+    <string name="pass">Password:</string>
+    <string name="rate">Pay Rate:</string>
+    <string name="state">State W/H:</string>
+    <string name="total">Total Pay:</string>
+    <string name="user">User Name:</string>
+</resources>
